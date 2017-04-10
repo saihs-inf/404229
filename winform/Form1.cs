@@ -21,5 +21,10 @@ namespace winform
         {
             label1.Text = "hello ";
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            label2.Text = textBox1.Text;
+        }
     }
 }
