@@ -31,5 +31,10 @@ namespace winform
         {
             MessageBox.Show("hello");
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show(label1.Text);
+        }
     }
 }
